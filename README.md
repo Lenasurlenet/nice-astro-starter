@@ -1,43 +1,24 @@
-# Welcome to [Astro](https://astro.build)
+# Nice-Astro-Tailwindcss-Starter
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/starter)
+Astro and Tailwindcss starter. it come with the path for fonts, colors, and typography to facilitate the addition of your style guide. Tailwind plugins have been added: Forms, Typography, Line-clamp and.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [View on Netlify](https://nice-astro-starter.netlify.app/)
+- [View on GitHub](https://github.com/Lenasurlenet/nice-astro-starter)
 
-## 🚀 Project Structure
+## Goal
 
-Inside of your Astro project, you'll see the following folders and files:
+Develop [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/) websites even faster.
 
-```
-/
-├── public/
-│   ├── robots.txt
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Tour.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## How to use it
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+1. [Create your own new repo from Nice-Astro-Starter template](https://github.com/Lenasurlenet/nice-astro-starter),
+2. Install dependencies: `yarn`
+3. Start development: `yarn run dev`
+4. Visit http://localhost:8080 to see your work-in-progress
+5. Have fun
+6. When you’re ready: `yarn run build`
+7. Host your project on either ([Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/) (or anywhere else really))
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Use the button below to deploy
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
-| `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:3000`  |
-| `npm run build`   | Build your production site to `./dist/`      |
-| `npm run preview` | Preview your build locally, before deploying |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-nice-astro-starter)
